@@ -1,0 +1,17 @@
+body{
+    background-color: darkgray;
+}
+
+main{
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    padding: 15px;
+    background-color: rgb(116, 114, 114);
+    margin: auto;
+    margin-top: 50px;
+}
+
+input#btMostrar:active{
+    background-color: black;
+    color: white;
+}

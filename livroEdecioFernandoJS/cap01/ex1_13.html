@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let precoProduto = Number(prompt("Preço do produto: "));
+        let avista = precoProduto - (precoProduto * 0.10);
+        let parcelado = precoProduto / 3;
+
+        alert(
+            "Opções de Pagamentos \n " +
+            "Preço R$: " + precoProduto.toFixed(2) + "\n" +
+            "À vista R$: " + avista.toFixed(2) + "\n" +
+            "Parcelado em 3x R$: " + parcelado.toFixed(2)
+        );
+    </script>
+</body>
+</html>

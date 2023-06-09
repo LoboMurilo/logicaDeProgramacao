@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let valorConta = Number(prompt("valor da conta: "));
+        let qtdCliente = Number(prompt("Quantos clientes: "));
+        let valorPorCliente = valorConta / qtdCliente;
+
+        alert(
+            "Valor da conta R$: " + valorConta.toFixed(2) + "\n" +
+            "Número de clientes: " + qtdCliente + "\n" + 
+            "Valor por cliente R$: " + valorPorCliente.toFixed(2)
+        );
+    </script>
+</body>
+</html>

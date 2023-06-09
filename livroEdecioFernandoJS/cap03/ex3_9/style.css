@@ -1,0 +1,32 @@
+main{
+    width: 600px;
+    margin: auto;
+    border: 1px solid;
+    text-align: center;
+}
+
+table{
+    float: right;
+    width: 200px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table tr:nth-child(odd){
+    background-color: rgba(255, 0, 0, 0.336);
+}
+
+table th,td{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+table th {
+    background-color: darkgray;
+}
+
+section{
+    margin-right: 210px;
+}
