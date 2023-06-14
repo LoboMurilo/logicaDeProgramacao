@@ -1,2 +1,2 @@
 # logicaDeProgramacao
- Estudos de lógica de programação com JavaScript
+lógica de programação com JavaScript - Livro
